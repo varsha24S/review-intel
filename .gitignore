@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+venv/
+.env
+*.egg-info/
+dist/
+backend/uploads/
+backend/models/
+backend/data/amazon_reviews_demo.csv
+backend/kaggle.json
+
+# Node
+node_modules/
+frontend/dist/
+frontend/.env
+.DS_Store
+
+# IDE
+.vscode/settings.json
+.idea/
+*.swp
