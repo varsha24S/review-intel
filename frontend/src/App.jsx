@@ -4,7 +4,7 @@ import { Toaster } from 'react-hot-toast'
 import Navbar from './components/Navbar.jsx'
 import HomePage from './pages/HomePage.jsx'
 import DashboardPage from './pages/DashboardPage.jsx'
-import ParticlesBackground from './utils/particles.js'
+import ParticlesBackground from './utils/particles.jsx'
 
 export default function App() {
   const [darkMode, setDarkMode] = useState(true)
