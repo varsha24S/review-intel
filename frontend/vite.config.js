@@ -4,16 +4,12 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
   plugins: [react()],
   server: {
-    port: 3000,
     proxy: {
       '/api': {
-       target: 'https://review-intel-ebsm.onrender.com'
+        target: 'https://review-intel-ebsm.onrender.com',
         changeOrigin: true,
+        secure: true,
       },
     },
-  },
-  build: {
-    outDir: 'dist',
-    sourcemap: false,
   },
 })
