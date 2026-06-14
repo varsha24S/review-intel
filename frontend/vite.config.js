@@ -8,8 +8,8 @@ export default defineConfig({
       '/api': {
         target: 'https://review-intel-ebsm.onrender.com',
         changeOrigin: true,
-        secure: true,
-      },
-    },
-  },
+        secure: true
+      }
+    }
+  }
 })
